@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 } */
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("Images/flat-bg.jpg");
+  background-size: cover;
+  /* display: flex;
+  justify-items: center;
+  align-items: center; */
+  /* height: 100vh;
+  width: 100vw;*/
+   max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+ form {
+  /* display: flex; */
+ align-Items: center; 
+ text-align:center;
+/* margin-top: 20%; */
+ /* flex-direction: column; */
+ /* height: 50vh;
+ width: 30vw; */
+ max-width: 100%;
+  height: auto;
+ background: rgba(255,255,255,0.15);
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.7);
+ backdrop-filter: blur(8.5px);
+ border-radius: 10px;
+ color: black;
+ /* text-transform: uppercase; */
+ letter-spacing: 0.3rem;
+}
+.login-form{
+  width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  height: 100%;
+  top: 50%;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media only screen and (max-width: 480px){
+ form {
+  margin-top: 3%;
+ }
+}       
+
+@media (min-width: 481px) and (max-width: 767px) {
+  form {
+    margin-top: 3%;
+   }
+} */
+
+/* / Media Query for Mobile Devices / */
+@media (max-width: 480px) {
+  form {
+    margin-top: 3%;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 3%;
+   }
+}
+  
+/* / Media Query for low resolution  Tablets, Ipads / */
+@media (min-width: 481px) and (max-width: 767px) {
+  form {
+    margin-top: 11%;
+   }
+}
+  
+/* / Media Query for Tablets Ipads portrait mode / */
+@media (min-width: 768px) and (max-width: 1024px){
+  form {
+    margin-top: 15%;
+   }
+}
+  
+/* / Media Query for Laptops and Desktops / */
+@media (min-width: 1025px) and (max-width: 1280px){
+  form {
+    margin-top: 18%;
+   }
+}
+  
+/* / Media Query for Large screens / */
+@media (min-width: 1281px) {
+  form {
+    margin-top: 16%;
+   }
+}
